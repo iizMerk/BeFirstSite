@@ -37,3 +37,6 @@ C:\Users\Merk Moi\documents\visual studio 2017\Projects\BeFirstSite\BeFirstSite\
 C:\Users\Merk Moi\documents\visual studio 2017\Projects\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.pdb
 C:\Users\Merk Moi\documents\visual studio 2017\Projects\BeFirstSite\BeFirstSite\bin\DotVVM.Framework.Controls.Bootstrap.dll
 C:\Users\Merk Moi\documents\visual studio 2017\Projects\BeFirstSite\BeFirstSite\bin\DotVVM.Framework.Controls.Bootstrap.xml
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.csprojResolveAssemblyReference.cache
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.dll
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.pdb
