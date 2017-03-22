@@ -126,6 +126,10 @@
     <Content Include="bin\DotVVM.Framework.Hosting.Owin.dll" />
     <Content Include="bin\DotVVM.Framework.Hosting.Owin.xml" />
     <Content Include="bin\DotVVM.Framework.xml" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\EntityFramework.xml" />
     <Content Include="bin\Microsoft.CodeAnalysis.CSharp.dll" />
     <Content Include="bin\Microsoft.CodeAnalysis.CSharp.xml" />
     <Content Include="bin\Microsoft.CodeAnalysis.dll" />
@@ -151,7 +155,7 @@
     <Content Include="bin\System.Collections.Immutable.xml" />
     <Content Include="bin\System.Reflection.Metadata.dll" />
     <Content Include="bin\System.Reflection.Metadata.xml" />
-    <Resource Include="bin\System.Web.Entity.dll" />
+    <Content Include="bin\System.Web.Entity.dll" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
