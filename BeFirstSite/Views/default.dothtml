@@ -1,0 +1,99 @@
+﻿@viewModel BeFirstSite.ViewModels.DefaultViewModel, BeFirstSite
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Be First</title>
+</head>
+<body>
+    <script src="../Scripts/bootstrap.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <link href="../PersonalCSS/Style.css" rel="stylesheet" />
+    <%-- Inizia Il codice vero e proprio --%>
+
+    <%-- Regolazione del video di background --%>
+    <div class="background-wrap">
+        <video ID="videobackground" preload="auto" autoplay="true" loop="loop" muted="muted">
+            <source src="../Videos/programming-ide.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <%-- Tutto il contenuto del Testo di presentazione --%>
+    <div style="text-align:center;padding:50px" class="content">
+
+        <bs:Image class="img-fluid" ImageUrl="/Images/BeFirst Logo2.png" />
+        <br />
+        <h1 class="h1 logotext" style="margin-top:40px;font-size:60px;">
+            WORK IN PROGRESS <br />
+            I NOSTRI SERVIZI
+        </h1>
+        <%-- Inserire la tabella con la presentazione di BeFirst --%>
+
+        <bs:Row style="margin-top:40px;">
+            <%-- CREAZIONE SITI --%>
+            <div class="col-md-4 logotext backgr-grey">
+                <div style="margin-top:20px">
+                    <h3 class="logotext h3">Creazione <br />Siti</h3>
+                    <br />
+                    <img src="../Images/web-design-training.png" style="height:100px;width:180px" />
+                    <br />
+                    <h4 style="margin-top:20px">Creiamo siti e Web App completamente dinamiche e responsive, in grado di soddisfare qualsiasi requisito richiesto.</h4>
+                </div>
+            </div>
+            <%-- CREAZIONI LOGHI --%>
+            <div class="col-md-4 logotext backgr-grey">
+                <div style="margin-top:20px">
+                    <h3 class="logotext h3">Creazione <br />Loghi</h3>
+                    <br />
+                    <img src="../Images/Circle-icons-paintbrush.svg.png" style="height:100px;width:100px" />
+                    <h4 style="margin-top:20px">Creiamo Loghi con l'utilizzo di programmi come Photoshop , del tutto personalizzati.</h4>
+                </div>
+            </div>
+            <%-- DIGITALIZZAZIONE D'IMPRESA --%>
+            <div class="col-md-4 logotext backgr-grey">
+                <div style="margin-top:20px">
+                    <h3 class="logotext h3">Digitalizzazione <br />D'impresa</h3>
+                    <br />
+                    <img src="../Images/ecommerce_banner1.png" style="height:100px;width:180px" />
+                    <h4 style="margin-top:20px">Ci occupiamo di argomenti giorno d'oggi fondamentali per l'accrescimento della propria impresa, con l'utilizzo del Web-Marketing e dei Social.</h4>
+                </div>
+            </div>
+        </bs:Row>
+
+        <%-- COSA UTILIZZIAMO --%>
+        <div style="margin-top:150px">
+            <h1 style="z-index:2" class="h1 logotext">
+                Cosa utilizziamo
+            </h1>
+            <div style="margin-bottom:200px;border-radius:20px;padding-top:20px" StyleDecorator.BackgroundColor="Warning">
+                <div>
+                    <img src="../Images/github.png" style="height:200px;width:190px" />
+                    <img src="../Images/html.ico" style="height:200px;width:190px;margin-right:10px" />
+                    <img src="../Images/Photoshop_CC_icon.png" style="height:200px;width:190px;margin-right:10px" />
+                    <img src="../Images/Visual_Studio.png" style="height:200px;width:190px;margin-right:10px" />
+                    <img src="../Images/xd.png" style="height:200px;width:190px;margin-right:10px" />
+                    <br />
+                    <img src="../Images/dottnet.png" style="height:200px;width:190px;margin-right:10px" />
+                    <img src="../Images/css3.png" style="height:200px;width:190px;margin-right:10px" />
+                    <img src="../Images/c-logo-icon-18.png" style="height:200px;width:190px;margin-right:10px" />
+                    <br />
+                    <img src="../Images/msazurelogo.png" style="height:150px;width:190px;margin-right:10px" />
+                    <img src="../Images/DOTVVM.png" style="height:200px;width:190px" />
+                </div>
+            </div>
+        </div>
+
+        <%-- FOOTER --%>
+        <h1>
+            Site Created by
+            <span>
+                <img src="../Images/BeFirst Logo2.png" style="height:110px;width:300px" />
+            </span> Team
+        </h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Resources/Styles/DotVVM.Bootstrap.css",
+    "inputFile": "Resources/Styles/DotVVM.Bootstrap.less"
+  },
+  {
+    "outputFile": "Resources/dotvvm.Bootstrap.all.es5.js",
+    "inputFile": "Resources/dotvvm.Bootstrap.all.js"
+  }
+]
