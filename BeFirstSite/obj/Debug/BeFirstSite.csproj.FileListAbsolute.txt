@@ -59,6 +59,5 @@ C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\System.Reflection.Met
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.csprojResolveAssemblyReference.cache
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.dll
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.pdb
-C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\System.Web.Entity.dll
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.Properties.Resources.resources
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.csproj.GenerateResource.Cache
