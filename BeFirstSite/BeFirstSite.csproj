@@ -94,8 +94,8 @@
     </Reference>
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity">
-      <Private>True</Private>
+    <Reference Include="System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Web.Extensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -111,6 +111,42 @@
     <Compile Include="ViewModels\DefaultViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\BeFirstSite.dll" />
+    <Content Include="bin\BeFirstSite.pdb" />
+    <Content Include="bin\DotVVM.Core.dll" />
+    <Content Include="bin\DotVVM.Core.xml" />
+    <Content Include="bin\DotVVM.Framework.Controls.Bootstrap.dll" />
+    <Content Include="bin\DotVVM.Framework.Controls.Bootstrap.xml" />
+    <Content Include="bin\DotVVM.Framework.dll" />
+    <Content Include="bin\DotVVM.Framework.Hosting.Owin.dll" />
+    <Content Include="bin\DotVVM.Framework.Hosting.Owin.xml" />
+    <Content Include="bin\DotVVM.Framework.xml" />
+    <Content Include="bin\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\Microsoft.CodeAnalysis.CSharp.xml" />
+    <Content Include="bin\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\Microsoft.CodeAnalysis.xml" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.xml" />
+    <Content Include="bin\Microsoft.Owin.dll" />
+    <Content Include="bin\Microsoft.Owin.FileSystems.dll" />
+    <Content Include="bin\Microsoft.Owin.FileSystems.xml" />
+    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.dll" />
+    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.xml" />
+    <Content Include="bin\Microsoft.Owin.StaticFiles.dll" />
+    <Content Include="bin\Microsoft.Owin.StaticFiles.xml" />
+    <Content Include="bin\Microsoft.Owin.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\Owin.dll" />
+    <Content Include="bin\System.Collections.Immutable.dll" />
+    <Content Include="bin\System.Collections.Immutable.xml" />
+    <Content Include="bin\System.Reflection.Metadata.dll" />
+    <Content Include="bin\System.Reflection.Metadata.xml" />
+    <Content Include="bin\System.Web.Entity.dll" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -142,6 +178,7 @@
     <Content Include="compilerconfig.json" />
     <Content Include="Scripts\build.log" />
     <Content Include="Scripts\bower.json" />
+    <Content Include="bin\BeFirstSite.dll.config" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
