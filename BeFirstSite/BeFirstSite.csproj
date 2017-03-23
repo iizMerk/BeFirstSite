@@ -47,6 +47,12 @@
     <Reference Include="DotVVM.Framework.Controls.Bootstrap, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DotVVM.Controls.Bootstrap.1.1.0\lib\net451\DotVVM.Framework.Controls.Bootstrap.dll</HintPath>
     </Reference>
+    <Reference Include="DotVVM.Framework.Controls.BusinessPack, Version=0.2.0.0, Culture=neutral, PublicKeyToken=77e8efd43b7ae75f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotVVM.Controls.BusinessPack.0.2.0-pre\lib\net451\DotVVM.Framework.Controls.BusinessPack.dll</HintPath>
+    </Reference>
+    <Reference Include="DotVVM.Framework.Controls.HtmlElements, Version=0.2.0.0, Culture=neutral, PublicKeyToken=77e8efd43b7ae75f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotVVM.Utils.HtmlElements.0.2.0-pre\lib\net451\DotVVM.Framework.Controls.HtmlElements.dll</HintPath>
+    </Reference>
     <Reference Include="DotVVM.Framework.Hosting.Owin, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
       <HintPath>..\packages\DotVVM.Owin.1.1.0\lib\net451\DotVVM.Framework.Hosting.Owin.dll</HintPath>
     </Reference>
@@ -100,7 +106,10 @@
     </Reference>
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System.Web.Extensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
