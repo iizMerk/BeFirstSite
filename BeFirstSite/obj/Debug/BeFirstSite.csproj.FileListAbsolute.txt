@@ -61,3 +61,8 @@ C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.dll
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\obj\Debug\BeFirstSite.pdb
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\EntityFramework.xml
 C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\OwinHostForHeroku.exe
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\Microsoft.Owin.Hosting.dll
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Merk Moi\Source\Repos\BeFirstSite\BeFirstSite\bin\Microsoft.Owin.Hosting.xml
