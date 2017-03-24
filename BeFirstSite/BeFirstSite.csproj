@@ -150,6 +150,8 @@
     <Content Include="Images\Visual_Studio.png" />
     <Content Include="Images\web-design-training.png" />
     <Content Include="Images\xd.png" />
+    <Content Include="PersonalCSS\animate.css" />
+    <Content Include="PersonalScript\wow.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="compilerconfig.json" />

@@ -12,7 +12,14 @@
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <script src="../Scripts/jquery-3.1.1.js"></script>
     <link href="../PersonalCSS/Style.css" rel="stylesheet" />
-    <%-- Inizia Il codice vero e proprio --%>
+    <%-- Riferimento alle animazioni --%>
+    <link href="../PersonalCSS/animate.css" rel="stylesheet" />
+    <script src="../PersonalScript/wow.min.js"></script>
+    <%-- Inizializzazione dello script wow per le animazioni --%>
+    <script>
+        new WOW().init();
+    </script>
+    <%-- Inizia Il codice --%>
 
     <%-- Regolazione del video di background --%>
     <div class="background-wrap">
@@ -92,7 +99,7 @@
             <span>
                 <img src="../Images/BeFirst Logo2.png" style="height:110px;width:300px" />
             </span> Team
-            
+
         </h1>
     </div>
 </body>
