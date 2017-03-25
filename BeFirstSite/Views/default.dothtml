@@ -6,8 +6,10 @@
 <head>
     <meta charset="utf-8" />
     <title>Be First</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<body>
+<body style="font-family:'Raleway',sans-serif;">
     <script src="../Scripts/bootstrap.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <script src="../Scripts/jquery-3.1.1.js"></script>
@@ -15,6 +17,7 @@
     <%-- Riferimento alle animazioni --%>
     <link href="../PersonalCSS/animate.css" rel="stylesheet" />
     <script src="../PersonalScript/wow.min.js"></script>
+
     <%-- Inizializzazione dello script wow per le animazioni --%>
     <script>
         new WOW().init();
